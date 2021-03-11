@@ -1,0 +1,187 @@
+<!--
+
+	 @author John Jayson B. De leon
+
+-->
+<!--
+	1000 hours song list web page
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+	
+	<!--links and title in the head-->
+	<head>
+
+		<!--title of the page-->
+		<title>RockFan</title>
+
+		<meta charset="utf-8">
+
+		<!--logo in the tab-->
+		<link rel="icon" href="logoMe.png" type="image/x-icon">		
+
+		<!-- external css -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type ="text/css" href="gd_css.css"/>
+
+		<!--external js-->
+		<script src="powerButton.js"></script>
+
+	</head>
+
+<!--body part two-->
+<body id="bodyOne">
+	
+		<!--body-->
+		<div class ="_body">
+	
+				<!--Navigation Bar-->
+				<link rel="stylesheet" type ="text/css" href="navigation_bar.css"/>
+				<div class = "navigation">
+		
+					<nav>
+		
+						<div class="logo">
+							<p onclick="NextPage()">RockFan</p>
+						</div>
+		
+						<ul id ="navOption">
+							<!--navigation button and search -->
+							<li onclick="NextPage()">Home</li>
+							<li onclick="Album()">Album</li>
+							<li onclick="about()">About</li>
+							<li onclick="news()">News</li>
+		
+						</ul>
+		
+					</nav>
+	
+		
+				</div>
+							<!--header-->
+			<div class="header">
+
+		<!--header-->
+		<link rel="stylesheet" type="text/css" href="header.css">
+		<div class="header">
+
+				<header id="Title">
+	
+						<h1 id="title_icon">
+						 <img src ="1000 hour.jpg" id="headIcon" width=250 height=250>
+						 Green Day:1000 hours</h1>
+	
+				</header>
+	
+			</div>
+	
+		
+		</div>	
+	</body>
+
+<body>
+
+		<!--album and song card-->
+		<link rel="stylesheet" type="text/css" href="albumCard.css">
+		<div class = "album">
+
+			<!--contain song list-->
+			<div class="song">
+
+			<!--title of the album-->
+			<div  class="jj">
+
+				<h1> Song list:</h1>
+				
+			</div>
+
+			<!-- songs of album-->
+
+			<div class ="card">
+					<div class="bandLogo">
+						<p>Paper Lanterns</p>
+					</div>
+
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="[1989] - 1,000 Hours [EP]\01 - Paper Lanterns.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+						<p>Why Do You Want Him</p>
+					</div>
+
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="[1989] - 1,000 Hours [EP]\02 - Why Do You Want Him.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>409 In Your Coffeemaker</p>
+					</div>
+	
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="[1989] - 1,000 Hours [EP]\03 -03 - 409 In Your Coffeemaker.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>Knowledge</p>
+					</div>
+	
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="[1989] - 1,000 Hours [EP]\04 - Knowledge.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+		</div>
+
+		</div>
+
+	<!--footer-->
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<div class="footer">
+			<footer>
+					<footer>
+							<p>Visit us on:<br><br>
+								<img src="facebook.png" id="socialMedia" width=50 height=50 onclick="fmedia()">
+								&nbsp;
+								<img src="instagram.svg.png" id="socialMedia" width=50 height=50 onclick="imedia()">
+								&nbsp;
+								<img src="twitter.png" id="socialMedia" width=50 height=50 onclick="tmedia()">
+								&nbsp;
+								<img src="google plus.png" id="socialMedia" width=60 height=50 onclick="gmedia()">
+			
+							</p>
+							<br>
+							<p>All Reserve 2018&copy;</p>
+			
+			</footer>
+		</div>
+	</div>
+
+</body>
+</html>

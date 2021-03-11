@@ -1,0 +1,154 @@
+<!--
+
+	 @author John Jayson B. De leon
+
+-->
+<!--
+	news web page
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+	
+	<!--links and title in the head-->
+	<head>
+
+		<!--title of the page-->
+		<title>RockFan</title>
+
+		<meta charset="utf-8">
+
+		<!--logo in the tab-->
+		<link rel="icon" href="logoMe.png" type="image/x-icon">
+
+		<!-- external css -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type ="text/css" href="gd_css.css"/>
+		<link rel="stylesheet" type ="text/css" href="navigation_bar.css"/>
+		<link rel="stylesheet" type="text/css" href="footer.css">
+		<link rel="stylesheet" type="text/css" href="albumCard.css">
+		<link rel="stylesheet" type="text/css" href="header.css">
+
+		<!--external js-->
+		<script src="powerButton.js"></script>
+
+	</head>
+
+<!--body part one-->
+<body id="bodyOne">
+	
+	<!--body-->
+	<div class ="_body">
+
+			<!--Navigation Bar-->
+			<div class = "navigation">
+	
+				<nav>
+					<!--logo in navigation bar-->
+					<div class="logo">
+						<p onclick="NextPage()">RockFan</p>
+					</div>
+	
+					<ul id ="navOption">
+
+						<!--navigation button and search -->
+						<li onclick="NextPage()">Home</li>
+						<li onclick="about()">About</li>
+						<li onclick="Album()">Album</li>
+
+					</ul>
+	
+				</nav>
+	
+			</div>	
+
+			<!--Logo in header-->
+			<div id="gd_lol">
+			<p id="gd">Green Day</p>
+			<center><p id="button" onclick="album(this)">Let's Play Song</p></center>
+			</div>
+							
+			</div>
+</body>
+
+<!--body part two-->
+<body id="bodyTwo">
+
+		<!--content-->
+		<div class="seperation">
+
+			<center><h1 id="update">News Update:</h1></center>
+			<!--news-->
+			<div class="yy">
+			<img src="ggd1.jpg" id="nn" width= 350 height=250 >
+			<p id = "newsME">
+				Greenday rock the mexico<br>
+				in there World Wide Tour Concert</p>
+			</div>
+
+			<div class="yy">
+			<img src="ggd2.jpg" id="nn" width= 350 height=250 >
+			<p id = "newsME">
+					Greenday rock the Canada<br>
+					in there World Wide Tour Concert</p>
+			</div>
+
+			<div class="yy">
+			<img src="gd3.jpg" id="nn" width= 350 height=250 >
+			<p id = "newsME">
+			Join Green day<br>
+			in there World wide tour Concert<br>
+			in Japan</p>
+			</div>
+		
+			<div class="yy">
+			<img src="gd4.jpg" id="nn" width= 350 height=250 >
+			<p id = "newsME">
+			Thank you Japan for supporting<br>
+			Greenday</p>
+			</div>
+
+			<div class="yy">
+			<img src="gd5.jpg" id="nn" width= 350 height=250 >
+			<p id = "newsME">
+			Billie makes his fan goe crazy<br>
+			and shout</p>
+			</div>
+
+			<div class="yy">
+			<img src="gd7.jpg" id="nn" width= 350 height=250 >
+			<p id = "newsME">
+			This is awesome</p>
+			</div>
+
+			<div class="yy">
+			<img src="gd10.jpg" id="nn" width= 350 height=250 >
+			<p id = "newsME">
+			This is awesome</p>
+			</div>
+
+
+		</div>
+       <!--footer-->
+	   <div class="footer">
+            <footer>
+                    <footer>
+                            <p>Visit us on:<br><br>
+                                <img src="facebook.png" id="socialMedia" width=50 height=50 onclick="fmedia()">
+                                &nbsp;
+                                <img src="instagram.svg.png" id="socialMedia" width=50 height=50 onclick="imedia()">
+                                &nbsp;
+                                <img src="twitter.png" id="socialMedia" width=50 height=50 onclick="tmedia()">
+                                &nbsp;
+                                <img src="google plus.png" id="socialMedia" width=60 height=50 onclick="gmedia()">
+            
+                            </p>
+                            <br>
+                            <p>All Reserve 2018&copy;</p>
+            
+            </footer>
+        </div>
+	
+</body>
+
+</html>

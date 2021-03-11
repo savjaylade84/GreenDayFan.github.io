@@ -1,0 +1,134 @@
+<!--
+
+	 @author John Jayson B. De leon
+
+-->
+<!--
+	main web page
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+	
+	<!--links and title in the head-->
+	<head>
+
+		<!--title of the page-->
+		<title>RockFan</title>
+
+		<meta charset="utf-8">
+
+		<!--logo in the tab-->
+		<link rel="icon" href="logoMe.png" type="image/x-icon">
+
+		<!-- external css -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type ="text/css" href="gd_css.css"/>
+		<link rel="stylesheet" type ="text/css" href="navigation_bar.css"/>
+		<link rel="stylesheet" type="text/css" href="footer.css">
+		<link rel="stylesheet" type="text/css" href="albumCard.css">
+		<link rel="stylesheet" type="text/css" href="header.css">
+
+		<!--external js-->
+		<script src="powerButton.js"></script>
+
+	</head>
+
+<!--body part one-->
+<body id="bodyOne">
+	
+	<!--body-->
+	<div class ="_body">
+
+			<!--Navigation Bar-->
+			<div class = "navigation">
+	
+				<nav>
+					<!--logo in navigation bar-->
+					<div class="logo">
+						<p onclick="NextPage()">RockFan</p>
+					</div>
+	
+					<ul id ="navOption">
+
+					    <!--navigation button and search -->
+                        <li onclick="NextPage()">Home</li>
+                        <li onclick="Album()">Album</li>
+                        <li onclick="about()">About</li>
+                        <li onclick="news()">News</li>
+
+					</ul>
+	
+				</nav>
+	
+			</div>	
+
+			<!--Logo in header-->
+			<div id="gd_lol">
+			<p id="gd">Green Day</p>
+            <center><p id="button" onclick="rd()">Revolution Radio</p></center>
+            <center><p id="button" onclick="gfb()">God Favorite Band</p></center>
+            <center><p id="button" onclick="sl()">Slappy</p></center>
+            <center><p id="button" onclick="hr()">1000 Hours</p></center>
+			</div>
+							
+            </div>
+ 
+</body>            
+<!--body part two-->
+<body id="bodyTwo">
+
+        <!--content-->
+        <div class="seperation">
+            
+            <div id="album">
+
+                        <!--album picture content-->
+                        <center>
+                        <div class="discription">
+                                <img id="collage" src="p10.jpg" alt ="Greenday" width="300" height="300"  title="Greenday Picture">
+                                <img id="collage" src="p12.jpg" width="300" height="300" title="Greenday Picture"> 
+                                <img id="collage" src="p8.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="p14.png" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="p1.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="p4.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="p7.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="p13.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="p5.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="p2.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="p11.jpg" width="300" height="300"title="Greenday Picture">
+                                <img id="collage" src="p6.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="p3.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="gd8.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="gd11.jpg" width="300" height="300" title="Greenday Picture">
+                                <img id="collage" src="gd6.jpg" width="300" height="300" title="Greenday Picture">
+                        </div>
+                        </center>
+                        
+            </div>
+        </div>
+    
+        <!--footer-->
+        <div class="footer">
+            <footer>
+                    <footer>
+                            <p>Visit us on:<br><br>
+                                <img src="facebook.png" id="socialMedia" width=50 height=50 onclick="fmedia()">
+                                &nbsp;
+                                <img src="instagram.svg.png" id="socialMedia" width=50 height=50 onclick="imedia()">
+                                &nbsp;
+                                <img src="twitter.png" id="socialMedia" width=50 height=50 onclick="tmedia()">
+                                &nbsp;
+                                <img src="google plus.png" id="socialMedia" width=60 height=50 onclick="gmedia()">
+            
+                            </p>
+                            <br>
+                            <p>All Reserve 2018&copy;</p>
+            
+            </footer>
+        </div>
+    
+    </body>
+           
+	
+</html>

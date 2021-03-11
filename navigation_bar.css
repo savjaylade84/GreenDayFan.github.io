@@ -1,0 +1,41 @@
+nav{
+margin-bottom: 10px;
+background-color: black;
+opacity:60%;
+font-weight:bold;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+min-height: 8vh;
+max-height: 12vh;
+}
+.logo{
+	font-family:Arial black;
+	letter-spacing: 5px;
+	justify-content: space-evenly;
+	color: rgb(10, 206, 206);
+	font-size: 2vh;
+	
+}
+
+
+
+#navOption{
+font-family:Arial;
+letter-spacing: 5px;
+flex-wrap: wrap;
+display:flex;
+list-style: none;
+justify-content: space-evenly;
+width: 40%;
+font-size:1.7vh;
+}
+#navOption li:hover{
+	box-shadow:0px 3px 0px gray;
+}
+#navOption li:active{
+		color:turquoise;
+}
+.navigation{
+	color:whitesmoke;
+}

@@ -1,0 +1,308 @@
+<!--
+
+	 @author John Jayson B. De leon
+
+-->
+<!--
+	Slappy song list web page
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+	
+	<!--links and title in the head-->
+	<head>
+
+		<!--title of the page-->
+		<title>RockFan</title>
+
+		<meta charset="utf-8">
+
+		<!--logo in the tab-->
+		<link rel="icon" href="logoMe.png" type="image/x-icon">		
+
+		<!-- external css -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type ="text/css" href="gd_css.css"/>
+		<link rel="stylesheet" type ="text/css" href="navigation_bar.css"/>
+		<link rel="stylesheet" type="text/css" href="footer.css">
+		<link rel="stylesheet" type="text/css" href="albumCard.css">
+		<link rel="stylesheet" type="text/css" href="header.css">
+
+		<!--external js-->
+		<script src="powerButton.js"></script>
+
+	</head>
+
+<!--body part two-->
+<body id="bodyOne">
+	
+		<!--body-->
+		<div class ="_body">
+	
+				<!--Navigation Bar-->
+				<div class = "navigation">
+		
+					<nav>
+		
+						<div class="logo">
+							<p onclick="NextPage()">RockFan</p>
+						</div>
+		
+						<ul id ="navOption">
+							<!--navigation button and search -->
+							<li onclick="NextPage()">Home</li>
+							<li onclick="about()">About</li>
+							<li onclick="Album()">Album</li>
+		
+		
+						</ul>
+		
+					</nav>
+	
+		
+				</div>
+							<!--header-->
+			<div class="header">
+
+		<!--header-->
+		<div class="header">
+
+				<header id="Title">
+	
+						<h1 id="title_icon">
+						 <img src ="Revolution Radio.jpg" id="headIcon" width=250 height=250>
+						 Green Day:Slappy</h1>
+	
+				</header>
+	
+			</div>
+	
+		
+		</div>	
+	</body>
+
+<body>
+
+		<!--album and song card-->
+		<div class = "album">
+
+			<!--contain song list-->
+			<div class="song">
+
+			<!--title of the album-->
+			<div  class="jj">
+
+				<h1> Song list:</h1>
+				
+			</div>
+
+			<!-- songs of album-->
+
+			<div class ="card">
+					<div class="bandLogo">
+						<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Somwhere Now</p>
+					</div>
+					<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\01 - Somwhere Now.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+						<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Bang Bang</p>
+					</div>
+					<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\02 - Bang Bang.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Revolution Radio</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\03 - Revolution Radio.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Say Goodbye</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\04 - Say Goodbye.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Outlaws</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\05 - Outlaws.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Bouncing Off The Wall</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\06 - Bouncing Off The Wall.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Still Breathing</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\07 - Still Breathing.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Young blood</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\08 - Youngblood.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Too Dumb To Die</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\09 - Too Dumb To Die.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Troubled Time</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\10 - Troubled Time.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Forever Now</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\11 - Forever Now.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+			<div class ="card">
+					<div class="bandLogo">
+							<p>	<img src="Revolution Radio.jpg" id="headIcons" width=100 height=100>Ordinary World</p>
+					</div>
+						<hr>
+					<div class="songs">
+					<audio controls="controls" id ="song">
+
+						<source src="revolutionaryRadio\12 - Ordinary World.mp3" type="audio/mpeg">
+
+					</audio>
+					</div>
+
+			</div>
+
+
+		</div>
+
+		</div>
+
+	<!--footer-->
+	<div class="footer">
+			<footer>
+					<footer>
+							<p>Visit us on:<br><br>
+								<img src="facebook.png" id="socialMedia" width=50 height=50 onclick="fmedia()">
+								&nbsp;
+								<img src="instagram.svg.png" id="socialMedia" width=50 height=50 onclick="imedia()">
+								&nbsp;
+								<img src="twitter.png" id="socialMedia" width=50 height=50 onclick="tmedia()">
+								&nbsp;
+								<img src="google plus.png" id="socialMedia" width=60 height=50 onclick="gmedia()">
+			
+							</p>
+							<br>
+							<p>All Reserve 2018&copy;</p>
+			
+			</footer>
+		</div>
+	</div>
+
+</body>
+</html>

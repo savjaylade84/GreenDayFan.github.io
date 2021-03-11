@@ -1,0 +1,22 @@
+ .about{
+	 background-image: url("gd1.jpg");
+	 height:auto;
+	 padding: 10px;
+ }
+ .about p{
+	opacity:0.9;
+	background-color: whitesmoke;
+	color: rgba(0, 0, 0, 0.719);
+	padding:20px;
+	height:auto;	
+	margin:10px;
+	font-weight: 800;
+   font-size:2vh;
+   text-align: center;
+	justify-content:space-around;
+ }
+
+ .about p a:hover{
+	color:gray;
+	text-decoration:underline;
+ }

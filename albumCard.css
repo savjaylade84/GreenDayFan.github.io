@@ -1,0 +1,111 @@
+
+ .chooseAlbum{
+	max-height:50%;
+	min-height:15%;
+	height:5%;
+	width:300px;
+	padding:10px;
+	border-radius:5px;
+ }
+ #AlbumList{
+	font-size:2vh;
+ }
+ #AlbumList,#chooseAlbum{
+	color:white;
+ }
+ #divide{
+	 width:auto;
+	 background-color: aliceblue;
+	 margin:5px;
+ }
+ #chooseAlbum{
+	letter-spacing:2px;
+	font-size:2vh;
+ }
+ .jj{
+	border-radius:5px;
+	padding:5px;
+ }
+ .jj p{
+	 font-size:3.6vh;
+	 
+	}
+ .card,.jj,.chooseAlbum{
+	border-left-style: 3px solid black;
+	background-color: brown;
+ }
+
+ .jj,.chooseAlbum{
+	justify-content:space-evenly;
+ }
+
+ .card{
+	opacity:0.95;
+	border-radius:10px;
+	padding-left:10px;
+	padding-right:10px;
+ }
+ .card,.jj{
+
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+	width:auto;
+	min-width:150px;
+	max-width: 1200px;
+	display: flex;
+
+ }
+ .card:hover{
+	 transition-delay: 200ms;
+	 opacity: 1;
+	 padding:11px;
+	 box-shadow: 10px 10px 10px black;
+ }
+ #headIcons{
+	 float: left;
+ }
+ .card p{
+	 font-size: 2vh;
+		}
+ .card p,.jj{
+	 color:whitesmoke;
+	 font-weight: 600;
+ }
+ .songs,.song,.bandLogo,.album{
+	 width:auto
+ }
+ .songs{
+	display: flex;
+	align-items: center;
+	padding:20px;
+	float: left;
+ }
+ .bandLogo{
+	 text-align: center;
+	 font-size:2vh;
+	 padding:auto;
+	 margin: auto;
+ }
+ .song{
+	padding:20px;
+ }
+  #chooseAlbum:hover{
+	 color:turquoise;
+ }
+ .album{	
+	background-image: url("gd9.jpg");
+	height:auto;
+ }
+audio{
+	width:auto;
+	min-width:370px;
+	max-width:500px;
+	border-radius:125px;
+}
+#collage{
+	color: black;
+}
+
+

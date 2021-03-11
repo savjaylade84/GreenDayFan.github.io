@@ -1,0 +1,104 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+#bodyOne{
+	background-image: url("gd2_2.png");
+	background-repeat: no-repeat;
+	width:auto;
+	height:auto;
+}
+a{
+	text-decoration:none;
+	color:fuchsia;
+}
+#chooseAlbum{
+	list-style: none;
+}
+#gd,#title_icon,#picAlbum{
+	color: rgb(3, 82, 36);
+	font-weight:900;
+}
+#gd,#title_icon{
+	text-shadow:3px 3px 3px black;
+	text-align: center;
+}
+#gd{
+	font-size: 100px;
+	opacity: 0.9;
+}
+#title_icon{
+	font-size:5vh;
+	opacity: 0.9;
+}
+#button{
+	color:whitesmoke;
+	letter-spacing: 10px;
+	font-family: Arial Black;
+	display:flex;
+	justify-content: space-around;
+	margin:15px;
+	background-color: blue;
+	padding: 10px;
+	box-shadow:2px 2px 2px grey;
+	width:500px;
+	border-radius:5px;
+}
+#button:hover{
+	background-color: aqua;
+}
+#button:active{
+	box-shadow: none;
+	color:red;
+}
+#gd_lol{
+	margin:150px;
+}
+#bodyTwo{margin:0px;}
+.seperation{
+	padding:10px;
+	height:auto;
+	background-color:white;
+	color:black;
+	margin-top:250px;
+}
+#collage{
+	border-radius:5px;
+	box-shadow: 5px 5px 5px gray;
+}
+#collage{
+	margin:20px;
+}
+#collage:hover{
+	width:400px;
+	height:400px;
+	box-shadow:10px 10px 10px black;
+}
+#newsME{
+	letter-spacing:3px;
+	font-weight: 500;
+	font-size:1.7vh;
+}
+
+
+#nn{
+	border-radius: 15px;
+	margin:10px;
+	min-width:100px;
+	min-height:100px;
+}
+.yy{
+	margin:10px;
+	display:flex;
+	justify-content: space-evenly;
+}
+#update{
+	text-align: center;
+	margin:10px;
+}
+#newsMe,#update{
+	color:rgb(63, 63, 63);
+	
+}

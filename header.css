@@ -1,0 +1,26 @@
+.header{
+ 	position: static;
+ }
+#Title{
+ 	font-size: 4vh;
+ 	text-indent: 20px;
+ }
+ #headIcon,#headIcons,#socialMedia{
+ 	border-radius:125px 125px 125px 125px;
+ }
+ #headIcon{
+	 width:auto;
+	 max-width:width 200px;
+	 min-width:150px;
+	 height:auto;
+	 max-width:200px;
+	 min-height:150px;
+ }
+ #socialMedia:hover{
+	 padding:10px;
+ }
+
+ #Title h1,#Title img{
+	align-items: center;
+ }
+
