@@ -27,7 +27,7 @@ flex-wrap: wrap;
 display:flex;
 list-style: none;
 justify-content: space-evenly;
-width: 40%;
+width: 45%;
 font-size:1.7vh;
 }
 #navOption li:hover{
